@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.container_graph {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+  .container_graph {
+    width: fit-content;
+  }
+  .wrapper_graph {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.leaf {
+  cursor: pointer;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  width: 200px;
+  flex-direction: column;
+  gap: 5px;
+}
+.square {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  background-color: red;
+}
+
+.legend-color {
+  cursor: pointer;
+}
