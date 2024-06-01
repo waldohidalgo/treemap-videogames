@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const svg = d3
     .select(".container_graph")
+    .html("")
     .append("svg")
     .attr("viewBox", [0, 0, width, height])
     .attr("width", width)
