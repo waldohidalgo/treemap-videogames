@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     .attr("class", "legend-title")
     .attr("x", 0)
     .attr("y", -10)
-    .text("Legend (Max to Min = Left to Right and Top to Bottom)")
+    .text("Plataforms (Max to Min = Left to Right and Top to Bottom)")
     .style("font-weight", "bold");
   // agregar contenedor g de categorias a legenda mostrando 6 categorias por columna
 
