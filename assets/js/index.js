@@ -143,8 +143,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       tooltip.style("display", "flex").html(
         `
-        <div><strong>-Category <span class="square"></span>:</strong> ${d.data.category} </div>
-        <div><strong>-Platform:</strong> ${d.data.name}</div>
+        <div><strong>-Platform <span class="square"></span>:</strong> ${d.data.category} </div>
+        <div><strong>-Game:</strong> ${d.data.name}</div>
         <div><strong>-Value:</strong> ${d.data.value}</div>
         `
       );
